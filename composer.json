@@ -1,0 +1,15 @@
+{
+    "require":{
+	"nette/mail": "*",
+	"igormatkovic/memcache": "dev-master",
+	"phpexcel/phpexcel": "dev-master",
+	"smarty/smarty": "3.1.*@dev"
+    },
+    "autoload":{
+        "psr-0":{
+	    "controller":"app/",
+	    "models":"app/",
+	    "helper":"services/"
+	}
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "igormatkovic/memcache",
+    "description": "Memcache module for Laravel 4",
+    "authors": [
+        {
+            "name": "Igor Matkovic",
+            "email": "igor@cod3.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "illuminate/cache": "~4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Igormatkovic\\Memcache\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
