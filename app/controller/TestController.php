@@ -22,6 +22,7 @@ class TestController
     	$base = $_SERVER['DOCUMENT_ROOT'];
         $smarty = new \Smarty;
         $smarty->template_dir = $base . "/app/views/test/"; //模板存放目录
+        $smarty->compile_dir = $base . "/app/views/templates_c"; //编译目录 templates_c
         $smarty->left_delimiter = "<!--{"; //左定界符 
 		$smarty->right_delimiter = "}-->"; //右定界符 
 		$smarty->assign('test','OK');
